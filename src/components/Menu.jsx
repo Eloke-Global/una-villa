@@ -1,5 +1,18 @@
 import MenuPlaceholder from "../assets/MenuPlaceholder.png"
 import MenuPlaceholder2 from "../assets/MenuPlaceholder2.png"
+import Menu1 from "../assets/menu/Menu Page-01.jpg"
+import Menu2 from "../assets/menu/Menu Page-02.jpg"
+import Menu3 from "../assets/menu/Menu Page-03.jpg"
+import Menu4 from "../assets/menu/Menu Page-04.jpg"
+import Menu5 from "../assets/menu/Menu Page-05.jpg"
+import Menu6 from "../assets/menu/Menu Page-06.jpg"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "@/components/ui/carousel"
 const Menu = () => {
   return (
     <div className="w-full bg-primary">
@@ -14,12 +27,36 @@ const Menu = () => {
                 </div>
             </div>
             <div className="py-9 lg:py-32">
-                <div className="lg:h-[820px] h-[477px] w-full border border-black flex items-center justify-center">
-                    <div className="flex flex-col gap-11 items-center">
-                        <div className="merri-bold text-[22px]">MENU</div>
+                <div className="h-auto w-full border border-black flex items-center justify-center ">
+                    {/* <div className="flex flex-col gap-11 items-center"> */}
+                        {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
-                        <div className="iplex text-lg">Revealing Soon</div>
-                    </div>
+                        <div className="iplex text-lg">Revealing Soon</div> */}
+                        <Carousel className="lg:w-[90%] w-[70%] h-full">
+                            <CarouselContent>
+                                <CarouselItem>
+                                    <img src={Menu1}/>
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img src={Menu2}/>
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img src={Menu3}/>
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img src={Menu4}/>
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img src={Menu5}/>
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img src={Menu6}/>
+                                </CarouselItem>
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                    {/* </div> */}
                 </div>
             </div>
             <div className="flex gap-9 lg:gap-24 lg:flex-row flex-col items-center justify-center">
