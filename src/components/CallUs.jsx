@@ -9,7 +9,9 @@ const CallUs = () => {
                 <div className="merri text-4xl font-bold">
                     CALL US TO BOOK TABLES <br /> & RESERVATIONS
                 </div>
-                <button className="bg-[#D0A127] underline italic text-[22px] px-10 py-2 border border-black">
+                <button className="bg-[#D0A127] underline italic text-[22px] px-10 py-2 relative">
+                    <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
+                    <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
                     Call Now!
                 </button>
             </div>

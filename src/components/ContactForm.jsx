@@ -33,7 +33,9 @@ const ContactForm = () => {
                     </div>
                     <input type="text" className="bg-primary outline-none px-4 py-2 iplex border-b border-black mb-6" />
                 </div>
-                <button className="bg-[#2E6E76] max-w-fit px-10 iplex italic text-lg text-white py-2 border border-black">
+                <button className="bg-[#2E6E76] max-w-fit px-10 iplex-italic italic text-lg text-primary underline py-2 relative ">
+                    <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
+                    <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
                     Submit
                 </button>
             </div>

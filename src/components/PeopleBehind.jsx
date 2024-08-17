@@ -7,16 +7,16 @@ const PeopleBehind = () => {
   return (
     <div className="w-full bg-primary pb-20">
         <div className="max-w-screen-xl mx-auto flex-col flex items-center justify-center iplex text-lg">
-            <div className="text-6xl merri-italic pb-16">
-                PEOPLE BEHIND THE MASTERPIECE
+            <div className="text-6xl merri-bitalic pb-16">
+                BEHIND THE MASTERPIECE
             </div>
             <div className="flex w-[1160px] gap-9">
                 <div className="flex-1 flex gap-5">
                     <div className="flex-1 flex flex-col gap-6">
-                        <div className="w-full aspect-square">
+                        <div className="w-full">
                             <img src={img1} alt="" />
                         </div>
-                        <div className="merri text-[22px] font-bold">FOOD</div>
+                        <div className="merri-bold text-[22px] font-bold">FOOD</div>
                         <div className="text-justify">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. desktop publishing software like
                         </div>
@@ -25,10 +25,10 @@ const PeopleBehind = () => {
                         <div className="text-justify">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into versions of Lorem Ipsum. desktop publishing software like
                         </div>
-                        <div className="w-full aspect-square">
+                        <div className="w-full">
                             <img src={img2} alt="" />
                         </div>
-                        <div className="merri text-[22px] font-bold">CUISINE</div>
+                        <div className="merri-bold text-[22px] font-bold">CUISINE</div>
                         <div className="text-justify">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
                         </div>
@@ -37,20 +37,20 @@ const PeopleBehind = () => {
                 <div className="w-0.5 bg-black"></div>
                 <div className="flex-1 flex gap-5">
                     <div className="flex-1 flex flex-col gap-6">
-                        <div className="merri text-[22px] font-bold">HANDMADE</div>
+                        <div className="merri-bold text-[22px] font-bold">HANDMADE</div>
                         <div className="text-justify">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. desktop publishing software like
                         </div>
-                        <div className="w-full aspect-square">
+                        <div className="w-full">
                             <img src={img3} alt="" />
                         </div>
                     </div>
                     <div className="flex-1 flex flex-col gap-6">
-                        <div className="merri text-[22px] font-bold">GARDEN</div>
+                        <div className="merri-bold text-[22px] font-bold">GARDEN</div>
                         <div className="text-justify">
                             Lorem Ipsum has been the industry's standard dummy text
                         </div>
-                        <div className="w-full aspect-square">
+                        <div className="w-full">
                             <img src={img4} alt="" />
                         </div>
                         <div className="text-justify">

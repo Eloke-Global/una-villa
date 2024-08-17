@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Merriweather:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,20 +20,44 @@
   font-style: normal;
 }
 
-.iplex-300 {
+.iplex-bold {
   font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 200;
+  font-weight: 700;
   font-style: normal;
 }
 
-.merri {
+.iplex-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.iplex-bitalic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merri{
   font-family: "Merriweather", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.merri-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
   font-style: normal;
 }
 
 .merri-italic {
   font-family: "Merriweather", serif;
   font-weight: 400;
+  font-style: italic;
+}
+
+.merri-bitalic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
   font-style: italic;
 }

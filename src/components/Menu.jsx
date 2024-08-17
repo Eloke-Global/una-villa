@@ -16,7 +16,7 @@ const Menu = () => {
             <div className="py-32">
                 <div className="h-[820px] w-full border border-black flex items-center justify-center">
                     <div className="flex flex-col gap-11 items-center">
-                        <div className="merri text-[22px]">MENU</div>
+                        <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
                         <div className="iplex text-lg">Revealing Soon</div>
                     </div>
@@ -24,15 +24,24 @@ const Menu = () => {
             </div>
             <div className="flex gap-24">
                 <div className="h-[385px] w-[486px]"><img src = {MenuPlaceholder2}/></div>
-                <div className="flex gap-4 flex-col justify-center">
-                    <div className="merri text-[22px]">
-                        Download Our Menu
+                <div className="flex gap-[26px] flex-col justify-center">
+                    <div className="merri-bold text-[22px]">
+                        DOWNLOAD MENU
                         <div className="iplex pt-2.5 py-9">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         </div>
                     </div>
-                    <button className="bg-[#2E6E76] px-10 py-2 iplex underline text-lg text-white font-thin border border-black max-w-fit ">Download Menu!</button>
-                    <button className="bg-[#D0A127] px-10 py-2 iplex underline text-lg  font-thin border border-black max-w-fit ">Download Bakery Menu!</button>
+                    <button className="bg-[#2E6E76] px-10 py-2 iplex underline text-lg text-white font-thin max-w-fit relative">
+                        <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
+                        <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
+                        Download Menu!
+                    </button>
+                    <button className="bg-[#D0A127] px-10 py-2 iplex underline text-lg  font-thin max-w-fit relative ">
+                        <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
+                        <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
+                        
+                        Download Bakery Menu!
+                    </button>
                 </div>
             </div>
         </div>

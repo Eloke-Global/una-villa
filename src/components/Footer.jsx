@@ -14,8 +14,12 @@ const Footer = () => {
                     <div className="">Contact</div>
                 </div>
                 <div className="flex flex-col justify-around items-center">
-                    <img src={Logo} alt="" />
-                    <button className="bg-[#D0A127] px-4 py-2 iplex underline text-lg font-thin border border-black max-w-fit ">Make Reservations!</button>
+                    <img className="w-[371px]" src={Logo} alt="" />
+                    <button className="bg-[#D0A127] px-4 py-2 iplex underline text-lg font-thin max-w-fit relative ">
+                        <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
+                        <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
+                        Make Reservations!
+                    </button>
                 </div>
             </div>
             <div className="h-[1px] w-full bg-black"></div>
