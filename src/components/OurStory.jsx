@@ -1,14 +1,14 @@
 import OurStoryPic from "../assets/Our-story-photo.jpg"
 const OurStory = () => {
   return (
-    <div className="w-full py-[144px] bg-primary">
-        <div className="max-w-[1145px] mx-auto">
+    <div className="w-full pb-7 pt-9 lg:py-[144px] bg-primary">
+        <div className="lg:max-w-[1145px] max-w-[375px] lg:p-0 p-5 mx-auto">
             <div className="w-full flex flex-col lg:flex-row gap-11">
-                <div className="w-full h-min p-3 border-2 border-black">
-                    <img className="w-[550px] h-[445px]" src={OurStoryPic}/>
+                <div className="w-full h-min p-1 lg:p-3 border-2 border-black">
+                    <img className="lg:w-[550px] lg:h-[445px] w-[320px] h-[264px]" src={OurStoryPic}/>
                 </div>
-                <div className="w-full text-lg iplex ">
-                    <div className="merri-bold text-[22px] pb-2">OUR STORY</div>
+                <div className="w-full text-xs lg:text-lg iplex ">
+                    <div className="merri-bold text-[16px] lg:text-[22px] pb-6 lg:pb-2">OUR STORY</div>
                     <div className="flex flex-col text-justify">
                         We always wanted Una Villa to have a strong connection with the community. Thoughtfully restoring a 60-year-old house nestled within a lush native garden in a vibrant neighbourhood of Nungambakkam seemed the perfect setting to create a warm, welcoming and familiar home away from home for friends, family and guests alike.
                     </div>

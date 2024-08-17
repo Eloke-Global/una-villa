@@ -29,38 +29,38 @@ const Marquee = () => {
 
   return (
     <div className="bg-sec text-white overflow-hidden whitespace-nowrap uppercase tracking-[4.4px]">
-      <div className="flex animate-scroll">
+      <div className="flex text-sm lg:text-[22px]">
         <MarqueeComponent className="flex items-center" pauseOnHover>
-          <div className="flex items-center">
-            <div className="text-[22px] font-thin mx-8">
+          <div className="flex items-center gap-8">
+            <div className="font-thin">
               Date : {date}
             </div>
-            <div className="text-[22px] font-thin mx-8">
+            <div className="font-thin">
               Time : {time}
             </div>
-            <div className="text-[22px] font-thin mx-8">
+            <div className="font-thin">
               Open All Day 11AM to 11PM
             </div>
-            <div className="text-[22px] font-thin mx-8">
+            <div className="font-thin">
               Celebrate Everydays
             </div>
-            <img className="py-2 mx-8" src={MiniLogo} alt="Mini Logo" />
+            <img className="lg:py-2 pr-4 py-0 lg:h-auto h-8" src={MiniLogo} alt="Mini Logo" />
           </div>
         </MarqueeComponent>
         {/* <div className="flex items-center">
-          <span className="text-[22px] font-thin mx-8">
+          <span className="text-[22px] font-thin">
             Date : {date}
           </span>
-          <span className="text-[22px] font-thin mx-8">
+          <span className="text-[22px] font-thin">
             Time : {time}
           </span>
-          <span className="text-[22px] font-thin mx-8">
+          <span className="text-[22px] font-thin">
             Open All Day 11AM to 11PM
           </span>
-          <span className="text-[22px] font-thin mx-8">
+          <span className="text-[22px] font-thin">
             Celebrate Everydays
           </span>
-          <img className="py-2 mx-8" src={MiniLogo} alt="Mini Logo" />
+          <img className="py-2" src={MiniLogo} alt="Mini Logo" />
         </div> */}
       </div>
       <div className="h-1 w-full bg-black"></div>

@@ -1,5 +1,7 @@
 import Logo from "../assets/Logo.png"
-
+import Facebook from "../assets/social/Facebook.png"
+import Instagram from "../assets/social/Instagram.png"
+import Youtube from "../assets/social/YouTube.png"
 const Footer = () => {
   return (
     <div className="w-full bg-primary iplex text-lg">
@@ -15,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col w-full lg:w-auto lg:justify-around gap-10 lg:gap-0 items-center">
                     <img className="lg:w-[371px] w-[217px]" src={Logo} alt="" />
-                    <button className="bg-[#D0A127] px-4 py-2 iplex underline text-lg font-thin max-w-fit relative ">
+                    <button className="bg-[#D0A127] px-4 py-2 merri-italic underline text-xs lg:text-lg font-thin max-w-fit relative ">
                         <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
                         <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
                         Make Reservations!
@@ -30,9 +32,11 @@ const Footer = () => {
                         Terms & Conditions
                     </div>
                 </div>
-                {/* <div className="">
-                    FB
-                </div> */}
+                <div className="flex gap-2 lg:gap-6">
+                    <img src={Facebook} alt="" />
+                    <img src={Instagram} alt="" />
+                    <img src={Youtube} alt="" />
+                </div>
             </div>
         </div>
     </div>
