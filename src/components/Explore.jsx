@@ -23,27 +23,27 @@ const Explore = () => {
                     </div>
                     <div className="flex flex-col gap-6">
                         <div className="flex gap-6">
-                            <div className="flex-1 aspect-square flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic1} alt="" srcset="" /></div>
+                            <div className="flex-1 aspect-square flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic1} alt="" srcset="" /></div>
                             <div className="flex-1 flex flex-col gap-6">
                                 <div className="flex flex-1 gap-6">
                                     {/* <div className="flex-1 bg-blue-500 flex justify-center items-center"><img src={pic2} alt="" className="h-full object-contain" /></div> */}
-                                    <div className="flex-1  flex items-center justify-center"><img src={pic2} alt="" className="h-full w-auto object-cover"/></div>
-                                    <div className="flex-1 flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic3} alt="" className="h-full w-auto object-cover"/></div>
+                                    <div className="flex-1  flex items-center justify-center border-2 border-black"><img src={pic2} alt="" className="h-full w-auto object-cover"/></div>
+                                    <div className="flex-1 flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic3} alt="" className="h-full w-auto object-cover"/></div>
                                 </div>
-                                <div className="flex-1 flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic4} alt="" srcset="" /></div>
+                                <div className="flex-1 flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic4} alt="" srcset="" /></div>
                             </div>
                         </div>
                         <div className="flex gap-6 h-[517px]">
-                            <div className="w-[269px] flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic5} alt="" srcset="" /></div>
-                            <div className="flex-1 flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic6} alt="" srcset="" /></div>
+                            <div className="w-[269px] flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic5} alt="" srcset="" /></div>
+                            <div className="flex-1 flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic6} alt="" srcset="" /></div>
                         </div>
                         <div className="flex gap-6 h-[465px] ">
-                            <div className="w-[376px]  flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic7} alt="" srcset="" /></div>
+                            <div className="w-[376px]  flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic7} alt="" srcset="" /></div>
                             <div className="flex-1 flex gap-6 flex-col">
-                                <div className="flex-1 flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic8} alt="" srcset="" /></div>
-                                <div className="flex-1 flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic9} alt="" srcset="" /></div>
+                                <div className="flex-1 flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic8} alt="" srcset="" /></div>
+                                <div className="flex-1 flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic9} alt="" srcset="" /></div>
                             </div>
-                            <div className="w-[450px] flex items-center justify-center"><img className="h-full w-auto object-cover" src={pic10} alt="" srcset="" /></div>
+                            <div className="w-[450px] flex items-center justify-center border-2 border-black"><img className="h-full w-auto object-cover" src={pic10} alt="" srcset="" /></div>
                         </div>
                     </div>
                 </div>

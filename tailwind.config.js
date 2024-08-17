@@ -10,17 +10,21 @@ export default {
         "primary":"#D8D5CB" ,
         "sec":"#2D62B5"
       },
-      keyframes: {
-        scroll: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-100%)' },
-        },
-      },
       animation: {
-        scroll: 'scroll 35s linear infinite',
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
       },
     },
   },
   plugins: [],
 }
-

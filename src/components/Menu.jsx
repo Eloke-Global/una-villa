@@ -22,8 +22,8 @@ const Menu = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-24">
-                <div className="h-[385px] w-[486px]"><img src = {MenuPlaceholder2}/></div>
+            <div className="flex gap-24 items-center justify-center">
+                <div className="h-[385px] w-[486px] flex items-center justify-center"><img src = {MenuPlaceholder2}/></div>
                 <div className="flex gap-[26px] flex-col justify-center">
                     <div className="merri-bold text-[22px]">
                         DOWNLOAD MENU
@@ -31,12 +31,12 @@ const Menu = () => {
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         </div>
                     </div>
-                    <button className="bg-[#2E6E76] px-10 py-2 iplex underline text-lg text-white font-thin max-w-fit relative">
+                    <button className="bg-[#2E6E76] px-4 py-2 merri-italic w-[270px] underline text-lg text-primary font-thin relative">
                         <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
                         <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
                         Download Menu!
                     </button>
-                    <button className="bg-[#D0A127] px-10 py-2 iplex underline text-lg  font-thin max-w-fit relative ">
+                    <button className="bg-[#D0A127] px-4 py-2 merri-italic w-[270px] underline text-lg  font-thin relative ">
                         <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
                         <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
                         

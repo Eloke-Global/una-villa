@@ -10,7 +10,7 @@ const PeopleBehind = () => {
             <div className="text-6xl merri-bitalic pb-16">
                 BEHIND THE MASTERPIECE
             </div>
-            <div className="flex w-[1160px] gap-9">
+            <div className="flex lg:w-[1160px] w-[375px] flex-col lg:flex-row gap-9">
                 <div className="flex-1 flex gap-5">
                     <div className="flex-1 flex flex-col gap-6">
                         <div className="w-full">
@@ -34,7 +34,7 @@ const PeopleBehind = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-0.5 bg-black"></div>
+                <div className="w-0.5 bg-black hidden lg:block"></div>
                 <div className="flex-1 flex gap-5">
                     <div className="flex-1 flex flex-col gap-6">
                         <div className="merri-bold text-[22px] font-bold">HANDMADE</div>

@@ -2,19 +2,21 @@
 const Contact = () => {
   return (
     <div className="w-full bg-primary">
-        <div className="max-w-[1145px] mx-auto">
+        <div className="lg:max-w-[1145px] max-w-[375px] px-5 lg:p-0 mx-auto">
             <div className="flex gap-20 flex-col items-center pt-20 pb-32">
                 <div className="merri font-bold text-[22px]">
                     CONTACT US
                 </div>
-                <div className="flex gap-10 w-full">
-                    <div className="merri-italic text-[22px] flex-1 flex items-center justify-center text-center border border-black px-8 flex-col gap-4">
+                <div className="flex lg:flex-row flex-col gap-10 w-full">
+                    <div className="merri-italic text-[22px] flex-1 flex items-center justify-center text-center px-8 flex-col gap-4 relative">
+                        <div className="absolute w-[calc(100%+16px)] h-full top-0 -left-[8px] border-2 border-black"></div>
+                        <div className="absolute h-[calc(100%+16px)] w-full left-0 -top-[8px] border-2 border-black"></div>
                         Address
                         <div className="iplex text-lg">
                             27/14, Uthamar Gandhi Rd, Tirumurthy Nagar, Nungambakkam, Chennai, Tamil Nadu 600034
                         </div>
                     </div>
-                    <div className="w-[1px] bg-black"></div>
+                    <div className="lg:block hidden w-[1px] bg-black"></div>
                     <div className="flex-1 flex gap-4">
                         <div className="merri-italic text-[22px] flex-1 text-center h-[215px] border flex-col p-4 border-black flex items-center gap-2 justify-center">
                             Contact

@@ -5,7 +5,7 @@ const CallUs = () => {
     <div className='w-full bg-primary'>
         <div className="mx-auto max-w-[1145px]">
             <div className="h-2.5 border-y border-black w-full"></div>
-            <div className="flex justify-around py-14 items-center">
+            <div className="flex lg:flex-row flex-col text-center justify-around py-14 items-center">
                 <div className="merri text-4xl font-bold">
                     CALL US TO BOOK TABLES <br /> & RESERVATIONS
                 </div>

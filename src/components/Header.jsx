@@ -1,7 +1,7 @@
 
 const Header = () => {
   return (
-    <div className="w-full bg-primary">
+    <div className="w-full bg-primary hidden lg:block">
         <div className="max-w-screen-xl mx-auto flex justify-between merri text-xl">
             <button className="h-full px-16 hover:bg-[#2C6F76] py-5">
                 HOME
@@ -19,7 +19,7 @@ const Header = () => {
                 CONTACT
             </button>
         </div>
-        <div className="h-2.5 border-y w-full border-black"></div>
+        <div className="h-2.5 border-y w-full border-black border-b-[3px]"></div>
     </div>
   )
 }
