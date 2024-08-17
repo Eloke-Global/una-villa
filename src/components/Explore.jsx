@@ -19,7 +19,7 @@ const Explore = () => {
                         EXPLORE THE CRAFTMENSHIP
                     </div>
                     <div className="text-justify lg:pb-[78px] pb-16 pt-10 lg:pt-6 iplex text-xs lg:text-lg">
-                        Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Discover our serene garden dining area, a perfect retreat for enjoying your meal in a peaceful setting. Surrounded by lush greenery and vibrant flowers, our outdoor space offers an enchanting atmosphere that enhances your dining experience. Whether you're here for a romantic evening or a casual brunch, our garden provides a tranquil escape.
                     </div>
                     <div className="flex flex-col gap-5 lg:gap-6">
                         <div className="flex lg:flex-row flex-col gap-6">

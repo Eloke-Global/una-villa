@@ -10,7 +10,7 @@ const Menu = () => {
                 </div>
                 <div className="w-full h-[1px] bg-black"></div>
                 <div className="text-justify iplex text-xs lg:text-lg">
-                    Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into versions of Lorem Ipsum. desktop publishing software like specimen book. It has survived not only five centuries, but also the leap into versions of Lorem Ipsum. desktop publishing software like desktop publishing software like
+                    Whether you`re in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
                 </div>
             </div>
             <div className="py-9 lg:py-32">
@@ -28,7 +28,7 @@ const Menu = () => {
                     <div className="merri-bold text-base lg:text-[22px]">
                         DOWNLOAD MENU
                         <div className="iplex text-xs lg:text-lg pt-2.5 py-4 lg:py-9">
-                            Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s,
+                            From traditional favorites to contemporary creations, our food promises to delight and satisfy.
                         </div>
                     </div>
                     <button className="bg-[#2E6E76] px-4 py-2 merri-italic w-[270px] underline text-lg text-primary font-thin relative">

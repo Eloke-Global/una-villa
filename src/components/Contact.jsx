@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="merri-italic text-[16px] lg:text-[22px] ">
                         Events
                         <div className="iplex text-xs lg:text-lg">
-                            For information about hosting outdoor events or private parties, please reach out to us at xyz@pur.com. Our team will be delighted to assist you and will respond to your inquiry shortly.
+                            For information about hosting outdoor events or private parties, please reach out to us at xyz@pur.com. Our team will be delighted to assist you and will respond to your inquiry shortly.
                         </div>
                     </div>
                 </div>
