@@ -1,3 +1,5 @@
+// import HTMLFlipBook from "react-pageflip";
+import FlipBook from './FlipBook';
 import MenuPlaceholder from "../assets/MenuPlaceholder.png"
 import MenuPlaceholder2 from "../assets/MenuPlaceholder2.png"
 import Menu1 from "../assets/menu/Menu Page-01.jpg";
@@ -33,7 +35,16 @@ const Menu = () => {
                         {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
                         <div className="iplex text-lg">Revealing Soon</div> */}
-                        <Carousel className="lg:w-[90%] w-[70%] h-full">
+                        {/* <HTMLFlipBook size="stretch">
+                            <img src={Menu1}/>
+                            <img src={Menu2}/>
+                            <img src={Menu3}/>
+                            <img src={Menu4}/>
+                            <img src={Menu5}/>
+                            <img src={Menu6}/>
+                        </HTMLFlipBook> */}
+                        <FlipBook images={[Menu1, Menu2, Menu3, Menu4, Menu5, Menu6]} />
+                        {/* <Carousel className="lg:w-[90%] w-[70%] h-full">
                             <CarouselContent>
                                 <CarouselItem>
                                     <img src={Menu1}/>
@@ -56,7 +67,7 @@ const Menu = () => {
                             </CarouselContent>
                             <CarouselPrevious />
                             <CarouselNext />
-                        </Carousel>
+                        </Carousel> */}
                     {/* </div> */}
                 </div>
             </div>
