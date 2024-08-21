@@ -16,12 +16,14 @@ const Hero = () => {
           <path d="M1 13.6667H20" stroke="#665325" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
-      <div className="mx-auto lg:max-w-screen-xl max-w-[375px] p-5 flex flex-col pt-16 lg:pt-[181px] pb-12 lg:pb-[138px] items-center justify-center">
+      <div className="mx-auto lg:max-w-screen-xl max-w-[375px] p-5 flex flex-col pt-16 lg:pt-16 pb-12 lg:pb-16 items-center justify-center h-screen max-h-screen">
           <img className="h-[48px] lg:h-[90px]" src={Logo}/>
           <h1 className="merri text-xs px-12 lg:text-2xl py-6 lg:py-[62px] uppercase tracking-[4.4px] text-center leading-normal">
               CELEBRATE FLAVOUR AND TOGETHERNESS IN EVERY MEAL
           </h1>
-          <img className="h-[346px] lg:h-[762px]" src={HeroImage}/>
+          <div className="max-h-full overflow-hidden">
+            <img className="h-full max-h-full object-contain" src={HeroImage}/>
+          </div>
       </div>
     </div>
   )

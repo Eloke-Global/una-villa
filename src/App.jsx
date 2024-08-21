@@ -11,10 +11,12 @@ import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
 function App() {
   return (
-    <>
+    <div className="text-[#312429]">
       <Hero/>
-      <Marquee/>
-      <Header/>
+      <div className="sticky top-0 z-[99]">
+        <Marquee/>
+        <Header/>
+      </div>
       <OurStory/>
       <PeopleBehind/>
       <CallUs/>
@@ -23,7 +25,7 @@ function App() {
       <Contact/>
       <ContactForm/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

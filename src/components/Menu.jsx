@@ -21,16 +21,16 @@ const Menu = () => {
     <div className="w-full bg-primary">
         <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pt-[74px] lg:pb-[114px]">
             <div className="flex flex-col gap-3 lg:gap-9">
-                <div className="merri-italic text-sm lg:text-[22px]">
-                    Finest dining Experience
+                <div className="merri-bold text-center text-sm lg:text-[22px] tracking-[4.4px]">
+                    MENU
                 </div>
-                <div className="w-full h-[1px] bg-black"></div>
+                <div className="w-full h-[1px] bg-prim-darkGray"></div>
                 <div className="text-justify iplex text-xs lg:text-lg">
                     Whether you`re in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
                 </div>
             </div>
             <div className="py-9 lg:py-32">
-                <div className="h-auto w-full border border-black flex items-center justify-center ">
+                <div className="h-auto w-full border border-prim-darkGray  flex items-center justify-center ">
                     {/* <div className="flex flex-col gap-11 items-center"> */}
                         {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
@@ -71,7 +71,7 @@ const Menu = () => {
                     {/* </div> */}
                 </div>
             </div>
-            <div className="flex gap-9 lg:gap-24 lg:flex-row flex-col items-center justify-center">
+            {/* <div className="flex gap-9 lg:gap-24 lg:flex-row flex-col items-center justify-center">
                 <div className="lg:h-[385px] lg:w-[486px] flex items-center justify-center"><img src = {MenuPlaceholder2}/></div>
                 <div className="flex gap-5 lg:gap-[26px] flex-col text-center lg:text-left justify-center items-center lg:items-start">
                     <div className="merri-bold text-base lg:text-[22px]">
@@ -82,19 +82,19 @@ const Menu = () => {
                     </div>
                     <a href={MenuPDF} download="UNA VILLA MENU.pdf">
                         <button className="bg-[#2E6E76] px-4 py-2 merri-italic w-[270px] underline text-lg text-primary font-thin relative">
-                            <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
-                            <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
+                            <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-prim-dabg-prim-darkGray"></div>
+                            <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-prim-dabg-prim-darkGray"></div>
                             Download Menu!
                         </button>
                     </a>
                     <button className="bg-[#D0A127] px-4 py-2 merri-italic w-[270px] underline text-lg  font-thin relative ">
-                        <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-black"></div>
-                        <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-black"></div>
+                        <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-prim-dabg-prim-darkGray"></div>
+                        <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-prim-dabg-prim-darkGray"></div>
                         
                         Download Bakery Menu!
                     </button>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

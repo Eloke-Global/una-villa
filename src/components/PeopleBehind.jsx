@@ -21,7 +21,7 @@ const PeopleBehind = () => {
                             At Una Villa, we believe that food is more than just a meal it`s an experience. Our menu features a selection of expertly crafted dishes, from vibrant salads and hearty soups to perfectly grilled meats and flavorful vegetarian options. Each plate is a testament to our commitment to quality, with ingredients sourced from local farms and markets. Our chefs are dedicated to delivering a culinary journey that excites the senses and satisfies every craving. Whether you`re enjoying a casual lunch or a special dinner, our food is designed to leave you both delighted and nourished.
                         </div>
                     </div>
-                    <div className="flex-1 max-w-[1px] lg:hidden bg-black"></div>
+                    <div className="flex-1 max-w-[1px] lg:hidden bg-prim-darkGray"></div>
                     <div className="flex-1 flex flex-col gap-6 lg:pb-0 pb-6">
                         <div className="text-justify">
                             From mouthwatering appetizers to indulgent mains and delectable desserts, each dish is prepared with fresh, high-quality ingredients. Whether you're in the mood for a classic favorite or an innovative creation, our food promises an unforgettable dining experience.
@@ -35,7 +35,7 @@ const PeopleBehind = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-0.5 bg-black hidden lg:block"></div>
+                <div className="w-0.5 bg-prim-darkGray hidden lg:block"></div>
                 <div className="flex-1 flex gap-5">
                     <div className="flex-1 flex flex-col gap-6">
                         <div className="merri-bold text-[22px] font-bold">HANDMADE</div>
@@ -47,7 +47,7 @@ const PeopleBehind = () => {
                         </div>
                     </div>
                     
-                    <div className="flex-1 max-w-[1px] lg:hidden bg-black"></div>
+                    <div className="flex-1 max-w-[1px] lg:hidden bg-prim-darkGray"></div>
                     <div className="flex-1 flex flex-col gap-6">
                         <div className="merri-bold text-[22px] font-bold">GARDEN</div>
                         <div className="text-justify">

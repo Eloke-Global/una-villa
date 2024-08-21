@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         "primary":"#D8D5CB" ,
-        "sec":"#2D62B5"
+        "sec":"#2D62B5",
+        "prim-darkGray":"#9C9481"
       },
       animation: {
         marquee: "marquee var(--duration) linear infinite",
