@@ -18,11 +18,11 @@ const ContactForm = () => {
                     </iframe>
                 </div>
             </div>
-            <div className="flex-1 flex gap-[20px] text-[16px] lg:gap-16 flex-col justify-center merri lg:text-[22px]">
-                <div className="merri-bold text-[16px] lg:text-3xl">
+            <div className="flex-1 flex gap-[20px] text-[16px] lg:gap-16 flex-col justify-center merri">
+                <div className="merri-bold text-[16px]">
                     WRITE TO US
                 </div>
-                <div className="flex flex-col lg:uppercase">
+                <div className="flex flex-col ">
                     <div className="merri-italic">
                         Name:
                     </div>

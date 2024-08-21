@@ -4,7 +4,7 @@ const Contact = () => {
     <div className="w-full bg-primary">
         <div className="lg:max-w-[1145px] max-w-[375px] px-5 lg:p-0 mx-auto">
             <div className="flex gap-9 lg:gap-20 flex-col items-center lg:pt-20 py-11 lg:pb-32">
-                <div className="merri-bold font-bold text-[16px] lg:text-[22px]">
+                <div className="merri-bold font-bold text-base lg:tracking-[2px]">
                     CONTACT US
                 </div>
                 <div className="flex lg:flex-row flex-col gap-10 w-full">
@@ -31,15 +31,15 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="flex gap-5 lg:gap-12 flex-col text-center">
-                    <div className="merri-italic lg:text-[22px] text-[16px]">
+                    <div className="merri-italic lg:text-lg text-[16px]">
                         Parking
-                        <div className="iplex text-xs lg:text-lg">
+                        <div className="iplex text-xs lg:text-base pt-4 lg:tracking-[1.5px]">
                             At Una Villa, our valet service is designed to offer you convenience and comfort. To preserve the beauty of our garden, we have carefully retained it within the property. As a result, our valet team may need a few extra minutes to park and return your vehicle. We thank you for your patience and understanding.
                         </div>
                     </div>
-                    <div className="merri-italic text-[16px] lg:text-[22px] ">
+                    <div className="merri-italic text-[16px] lg:text-lg ">
                         Events
-                        <div className="iplex text-xs lg:text-lg">
+                        <div className="iplex text-xs lg:text-base pt-4 lg:tracking-[1.5px]">
                             For information about hosting outdoor events or private parties, please reach out to us at xyz@pur.com. Our team will be delighted to assist you and will respond to your inquiry shortly.
                         </div>
                     </div>

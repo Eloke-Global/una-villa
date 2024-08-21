@@ -6,16 +6,16 @@ const Header = () => {
             <button className="h-full px-16 hover:bg-[#2C6F76]">
                 HOME
             </button>
-            <button className="h-full px-16 hover:bg-[#2C6F76]">
+            <button className="h-full px-16 hover:bg-[#8471a2]">
                 ABOUT US
             </button>
-            <button className="h-full px-16 hover:bg-[#2C6F76]">
+            <button className="h-full px-16 hover:bg-[#2665ae]">
                 MENU
             </button>
-            <button className="h-full px-16 hover:bg-[#2C6F76]">
+            <button className="h-full px-16 hover:bg-[#c49596]">
                 GALLERY
             </button>
-            <button className="h-full px-16 hover:bg-[#2C6F76]">
+            <button className="h-full px-16 hover:bg-[#d0a027]">
                 CONTACT
             </button>
         </div>

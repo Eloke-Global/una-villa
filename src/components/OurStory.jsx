@@ -8,14 +8,14 @@ const OurStory = () => {
                     <img className="h-full w-auto object-cover" src={OurStoryPic}/>
                 </div>
                 <div className="w-full text-xs lg:text-lg iplex flex-1">
-                    <div className="merri-bold text-[16px] lg:text-[22px] pb-6 lg:pb-2">OUR STORY</div>
-                    <div className="flex flex-col text-justify">
+                    <div className="merri-bold text-[16px] pb-6 lg:pb-2">OUR STORY</div>
+                    <div className="flex flex-col text-justify lg:tracking-[1.5px] ">
                         We always wanted Una Villa to have a strong connection with the community. Thoughtfully restoring a 60-year-old house nestled within a lush native garden in a vibrant neighbourhood of Nungambakkam seemed the perfect setting to create a warm, welcoming and familiar home away from home for friends, family and guests alike.
                     </div>
-                    <div className="py-2 text-justify">
+                    <div className="py-2 text-justify lg:tracking-[1.5px]">
                         Through comfort cuisine made using the freshest ingredients inspired from local and global recipes to objects and furniture old and new, each detail is crafted to awaken a sense of wonder for the beauty found in the ordinary. We invite you in our home to pause, observe and experience your simple everyday moments. Here, time eases into a warm embrace welcoming you to live your celebrations, first dates, business meetings to even just the mundane.
                     </div>
-                    <div className="text-justify">
+                    <div className="text-justify lg:tracking-[1.5px]">
                         So cozy up to a spot, enjoy the good food and let`s celebrate everydays together at Una Villa. 
                     </div>
                 </div>
