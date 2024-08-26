@@ -18,9 +18,9 @@ function App() {
         <Header/>
       </div>
       <OurStory/>
-      <PeopleBehind/>
-      <CallUs/>
+      {/* <PeopleBehind/> */}
       <Menu/>
+      <CallUs/>
       <Explore/>
       <Contact/>
       <ContactForm/>

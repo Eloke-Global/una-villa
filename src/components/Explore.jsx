@@ -10,16 +10,17 @@ import pic9 from "../assets/explore/9.png"
 import pic10 from "../assets/explore/10.png"
 const Explore = () => {
   return (
-    <div className="w-full bg-primary">
-        <div className="lg:max-w-[1145px] w-full max-w-[375px] p-5 mx-auto">
-            <div className="h-2.5 border-y border-prim-darkGray"></div>
+    <div className="w-full bg-primary pt-[136px]">
+        <div className="lg:max-w-[1145px] w-full max-w-[375px] mx-auto">
+            {/* <div className="h-2.5 border-y border-prim-darkGray"></div> */}
             <div className="lg:pt-[78px] py-[52px] lg:pb-[116px]">
                 <div className="flex flex-col text-center">
                     <div className="lg:text-base lg:tracking-[2px] text-sm merri-bold font-bold">
-                        EXPLORE THE CRAFTSMENSHIP
+                        GALLERY
                     </div>
-                    <div className="text-justify lg:pb-[78px] pb-16 pt-10 lg:pt-6 iplex text-xs lg:text-base lg:tracking-[1.5px]">
-                        Discover our serene garden dining area, a perfect retreat for enjoying your meal in a peaceful setting. Surrounded by lush greenery and vibrant flowers, our outdoor space offers an enchanting atmosphere that enhances your dining experience. Whether you`re here for a romantic evening or a casual brunch, our garden provides a tranquil escape.
+                    <div className="border-b border-prim-darkGray pt-10 mb-16 w-full"></div>
+                    <div className="text-justify lg:text-center lg:pb-[78px] pb-16 pt-10 lg:pt-6 iplex text-xs lg:text-base lg:tracking-[1.5px]">
+                        Once, sharing a meal was the heart of friendship, where stories flowed and conversations meandered over coffee. At Una Villa, we honor this tradition with comforting cuisine and genuine hospitality. Join us to relive these cherished moments, share your stories, and savor the warmth of true connection. Celebrate the beauty of everyday togetherness with us.
                     </div>
                     <div className="flex flex-col gap-5 lg:gap-6">
                         <div className="flex lg:flex-row flex-col gap-6">

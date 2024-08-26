@@ -29,8 +29,8 @@ const Marquee = () => {
 
   return (
     <div className="bg-sec h-10 text-white overflow-hidden border-b border-[#9c9481] whitespace-nowrap uppercase tracking-[4.4px]">
-      <div className="flex  text-sm lg:text-18px">
-        <MarqueeComponent className="flex items-center" pauseOnHover>
+      <div className="flex text-sm lg:text-18px">
+        <MarqueeComponent className="flex items-center mr-0 pr-0" pauseOnHover>
           <div className="flex items-center gap-2">
             <div className="font-thin">
               Date : {date}
@@ -48,7 +48,7 @@ const Marquee = () => {
               Celebrate Everydays
             </div>
             <div>.</div>
-            <img className="h-6 " src={MiniLogo} alt="" />
+            <img className="h-6 pr-1" src={MiniLogo} alt="" />
             <div>.</div>
             {/* <img className="pr-4 py-0 lg:h-8 h-8" src={MiniLogo} alt="Mini Logo" /> */}
           </div>

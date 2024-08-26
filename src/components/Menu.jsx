@@ -26,7 +26,7 @@ const Menu = () => {
                 </div>
                 <div className="w-full h-[1px] bg-prim-darkGray"></div>
                 <div className="text-center iplex text-xs lg:text-base lg:tracking-[1.5px]">
-                    Whether you`re in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
+                Whether you're in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
                 </div>
             </div>
             <div className="py-9 lg:py-32">

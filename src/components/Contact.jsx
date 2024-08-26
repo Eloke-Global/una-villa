@@ -26,7 +26,7 @@ const Contact = () => {
                         </div>
                         <div className="merri-italic text-[16px] lg:text-[22px]  flex-1 text-center lg:h-[215px] border flex-col p-4 border-prim-darkGray flex items-center gap-2 justify-center">
                             Hours
-                            <div className="iplex text-xs lg:text-lg">Tuesday to Sunday, <br /> 11am to 11pm</div>
+                            <div className="iplex text-xs lg:text-lg">Monday to Sunday, <br /> 11am to 11pm</div>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:h-1.5 h-1 border-y border-prim-darkGray"></div>
+            <div className="lg:h-2.5 h-1 border-y border-prim-darkGray"></div>
         </div>
     </div>
   )
