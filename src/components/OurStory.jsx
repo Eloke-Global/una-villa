@@ -8,9 +8,9 @@ const OurStory = () => {
                 OUR STORY
             </div>
             <div className="w-full flex flex-col lg:flex-row lg:items-center gap-9">
-                <div className="flex-1 bg-red-500">
+                <div className="flex-1">
                     {/* <img className="w-full h-full object-fill " src={OurStoryPic}/> */}
-                    <div className="h-[576px] w-full bg-blue-400" style={{backgroundImage:`url(${OurStoryPic})`, backgroundSize:'cover',backgroundPosition: 'center'}}></div>
+                    <div className="h-[576px] w-full" style={{backgroundImage:`url(${OurStoryPic})`, backgroundSize:'cover',backgroundPosition: 'center'}}></div>
                 </div>
                 <div className="w-full text-xs lg:text-base iplex flex-1 flex flex-col gap-2">
                     {/* <div className="merri-bold text-[16px] pb-6 lg:pb-2">OUR STORY</div> */}
