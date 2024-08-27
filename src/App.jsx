@@ -9,6 +9,7 @@ import Menu from "./components/Menu"
 import Contact from "./components/Contact"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
+import Gallery from "./components/Gallery"
 function App() {
   return (
     <div className="text-[#312429]">
@@ -21,7 +22,8 @@ function App() {
       {/* <PeopleBehind/> */}
       <Menu/>
       <CallUs/>
-      <Explore/>
+      {/* <Explore/> */}
+      <Gallery/>
       <Contact/>
       <ContactForm/>
       <Footer/>

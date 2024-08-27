@@ -8,6 +8,7 @@ import Menu2 from "../assets/menu/Menu Page-03.jpg";
 import Menu5 from "../assets/menu/Menu Page-04.jpg";
 import Menu3 from "../assets/menu/Menu Page-05.jpg";
 import Menu4 from "../assets/menu/Menu Page-06.jpg";
+import HTMLFlipBook from 'react-pageflip';
 import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
 import {
     Carousel,
@@ -16,10 +17,11 @@ import {
     CarouselNext,
     CarouselPrevious,
   } from "@/components/ui/carousel"
+
 const Menu = () => {
   return (
     <div className="w-full bg-primary">
-        <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pt-[74px] lg:pb-[114px]">
+        <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pb-[114px]">
             <div className="flex flex-col gap-3 lg:gap-9">
                 <div className="merri-bold text-center text-sm lg:text-[22px] tracking-[4.4px]">
                     MENU
@@ -29,8 +31,8 @@ const Menu = () => {
                 Whether you're in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
                 </div>
             </div>
-            <div className="py-9 lg:py-32">
-                <div className="h-auto w-full border border-prim-darkGray  flex items-center justify-center ">
+            <div className="">
+                <div className="h-auto w-full   flex items-center justify-center ">
                     {/* <div className="flex flex-col gap-11 items-center"> */}
                         {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
@@ -43,7 +45,18 @@ const Menu = () => {
                             <img src={Menu5}/>
                             <img src={Menu6}/>
                         </HTMLFlipBook> */}
-                        <FlipBook images={[Menu1, Menu2, Menu3, Menu4, Menu5, Menu6]} />
+                        {/* <FlipBook images={[Menu1, Menu2, Menu3, Menu4, Menu5, Menu6]} /> */}
+                            <HTMLFlipBook
+                                height={1200}
+                                width={900}
+                            >
+                                <img src={Menu1} />
+                                <img src={Menu2} />
+                                <img src={Menu3} />
+                                <img src={Menu4} />
+                                <img src={Menu5} />
+                                <img src={Menu6} />
+                            </HTMLFlipBook>
                         {/* <Carousel className="lg:w-[90%] w-[70%] h-full">
                             <CarouselContent>
                                 <CarouselItem>
