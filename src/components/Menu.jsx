@@ -20,7 +20,7 @@ import {
 
 const Menu = () => {
   return (
-    <div className="w-full bg-primary">
+    <div className="w-full bg-primary" id = "menu">
         <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pb-[114px]">
             <div className="flex flex-col gap-3 lg:gap-9">
                 <div className="merri-bold text-center text-sm lg:text-[22px] tracking-[4.4px]">
@@ -32,7 +32,20 @@ const Menu = () => {
                 </div>
             </div>
             <div className="">
-                <div className="h-auto w-full   flex items-center justify-center ">
+                <div className="flex lg:hidden">
+                    <HTMLFlipBook
+                        height={400}
+                        width={300}
+                    >
+                        <img src={Menu1} />
+                        <img src={Menu2} />
+                        <img src={Menu3} />
+                        <img src={Menu4} />
+                        <img src={Menu5} />
+                        <img src={Menu6} />
+                    </HTMLFlipBook>
+                </div>
+                <div className="h-auto w-full lg:flex hidden items-center justify-center ">
                     {/* <div className="flex flex-col gap-11 items-center"> */}
                         {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="bg-primary pt-[43px] pb-[53px] lg:pb-52 lg:pt-24">
+    <div className="bg-primary pt-[43px] pb-[53px] lg:pb-52 lg:pt-24" id = "writetous">
         <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto flex lg:flex-row flex-col-reverse gap-[43px] lg:gap-28 ">
             <div className="flex-1 w-[336px]  border border-prim-darkGray p-2">
                 <div className="border border-prim-darkGray w-full h-full">

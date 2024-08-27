@@ -2,7 +2,7 @@ import React from 'react'
 
 const CallUs = () => {
   return (
-    <div className='w-full bg-primary'>
+    <div className='w-full bg-primary' id = "callus">
         <div className="mx-auto max-w-[375px] lg:max-w-[1145px] px-5 lg:px-0">
             <div className="h-1 lg:h-2.5 border-y border-prim-darkGray w-full"></div>
             <div className="flex lg:flex-row flex-col text-center justify-around py-11 lg:py-14 gap-3 items-center">

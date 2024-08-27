@@ -2,7 +2,7 @@
 import OurStoryPic from "../assets/NB_Website - Our story.jpg"
 const OurStory = () => {
   return (
-    <div className="w-full pb-7 pt-9 lg:pt-[96px] lg:pb-[104px] bg-primary">
+    <div className="w-full pb-7 pt-9 lg:pt-[96px] lg:pb-[104px] bg-primary" id = "ourstory">
         <div className="lg:max-w-[1145px] max-w-[375px] lg:p-0 p-5 mx-auto">
             <div className="h-full mb-9 merri-bold text-center pb-6 border-b border-prim-darkGray">
                 OUR STORY

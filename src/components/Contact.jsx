@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <div className="w-full bg-primary">
+    <div className="w-full bg-primary" id = "contact">
         <div className="lg:max-w-[1145px] max-w-[375px] px-5 lg:p-0 mx-auto">
             <div className="flex gap-9 lg:gap-20 flex-col items-center lg:pt-20 py-11 lg:pb-32">
                 <div className="merri-bold font-bold text-base lg:tracking-[2px]">

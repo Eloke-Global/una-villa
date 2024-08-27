@@ -5,19 +5,23 @@ import Youtube from "../assets/social/YouTube.png"
 import KICl from "../assets/KICL.png"
 const Footer = () => {
   return (
-    <div className="w-full bg-primary iplex text-lg">
+    <div className="w-full bg-primary iplex text-lg" id = "footer">
         <div className="h-2.5 border-y border-prim-darkGray"></div>
         <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto pt-24 lg:pb-14 flex gap-7 lg:gap-10 flex-col">
-            <div className="flex justify-between pb-10">
-                <div className="flex align-bottom justify-end items-end gap-40">
-                    <div className="lg:flex gap-10 flex-col">
+            {/* <div className="flex flex-col gap-10 lg:hidden">
+                <img src={KICl} alt="" />
+                <img src={Logo} alt="" />
+            </div> */}
+            <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-0 pb-10">
+                <div className="flex align-bottom lg:justify-end justify-center lg:items-end lg:gap-40 ">
+                    <div className="lg:flex hidden gap-10 flex-col">
                         <div className="cursor-pointer">Home</div>
                         <div className="cursor-pointer">About</div>
                         <div className="cursor-pointer">Menu</div>
                         <div className="cursor-pointer">Gallery</div>
                         <div className="flex gap-[120px]">Contact </div>
                     </div>
-                    <img className="h-20" src={KICl} alt="" />
+                    <img className="lg:h-20 h-10" src={KICl} alt="" />
                 </div>
                 <div className="flex flex-col w-full lg:w-auto gap-10 lg:gap-0 lg:justify-end items-center">
                     <img className="lg:w-[371px] w-[217px] lg:self-end" src={Logo} alt="" />
