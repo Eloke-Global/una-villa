@@ -23,11 +23,11 @@ const Menu = () => {
     <div className="w-full bg-primary" id = "menu">
         <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pb-[114px]">
             <div className="flex flex-col gap-3 lg:gap-9">
-                <div className="merri-bold text-center text-sm lg:text-base tracking-[10px]">
+                <div className="merri-bold text-center text-xs lg:text-base tracking-[10px]">
                     MENU
                 </div>
                 <div className="w-full h-[1px] bg-prim-darkGray"></div>
-                <div className="text-center iplex text-xs lg:text-base lg:tracking-[1.5px]">
+                <div className="text-center iplex text-xs lg:text-base lg:tracking-[1.5px] tracking-[2px]">
                     Whether you're in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
                 </div>
             </div>
@@ -45,7 +45,7 @@ const Menu = () => {
                         <img src={Menu6} />
                     </HTMLFlipBook>
                 </div>
-                <div className="h-[800px] w-[600px] mx-auto pt-11 lg:flex hidden items-center justify-center ">
+                <div className="h-[1000px] w-[750px] mx-auto pt-11 lg:flex hidden items-center justify-center ">
                     {/* <div className="flex flex-col gap-11 items-center"> */}
                         {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
@@ -60,8 +60,8 @@ const Menu = () => {
                         </HTMLFlipBook> */}
                         {/* <FlipBook images={[Menu1, Menu2, Menu3, Menu4, Menu5, Menu6]} /> */}
                             <HTMLFlipBook
-                                height={800}
-                                width={600}
+                                height={1000}
+                                width={750}
                             >
                                 <img src={Menu1} />
                                 <img src={Menu2} />

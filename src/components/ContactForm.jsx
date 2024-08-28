@@ -19,7 +19,7 @@ const ContactForm = () => {
                 </div>
             </div>
             <div className="flex-1 flex gap-[20px] text-[16px] lg:gap-16 flex-col justify-center merri ">
-                <div className="merri-bold lg:text-base text-sm tracking-[10px] lg:pb-0 pb-8">
+                <div className="merri-bold lg:text-base text-xs tracking-[10px] lg:pb-0 pb-8">
                     WRITE TO US
                 </div>
                 <div className="flex flex-col ">

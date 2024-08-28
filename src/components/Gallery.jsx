@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <div className="bg-primary w-full" id = "gallery">
         <div className="mx-auto w-full max-w-[345px] lg:max-w-[1145px] lg:py-[104px] py-9">
-            <div className="merri-bold uppercase tracking-[10px] text-center lg:text-base text-sm">
+            <div className="merri-bold uppercase tracking-[10px] text-center lg:text-base text-xs">
                 Gallery
             </div>
             <div className="h-[1px] bg-prim-darkGray my-10"></div>
