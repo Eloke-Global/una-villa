@@ -10,11 +10,13 @@ import Contact from "./components/Contact"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
 import Gallery from "./components/Gallery"
+import MobileHeader from "./components/MobileNavBar"
 function App() {
   return (
     <div className="text-[#312429]">
       <Hero/>
-      <div className="sticky top-0 z-[99]">
+      <div className="sticky top-[68px] lg:top-0 z-[99]">
+        <MobileHeader/>
         <Marquee/>
         <Header/>
       </div>

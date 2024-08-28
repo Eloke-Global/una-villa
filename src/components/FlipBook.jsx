@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import styled from 'styled-components';
 
@@ -39,7 +39,7 @@ const FlipBook = ({ images }) => {
       maxWidth={1000}
       minHeight={400}
       maxHeight={1533}
-      maxShadowOpacity={0.5}
+      maxShadowOpacity={0}
     //   showCover={true}
       mobileScrollSupport={true}
       onFlip={updateCurrentPage}
