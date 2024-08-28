@@ -1,7 +1,7 @@
 // import HTMLFlipBook from "react-pageflip";
-import FlipBook from './FlipBook';
-import MenuPlaceholder from "../assets/MenuPlaceholder.png"
-import MenuPlaceholder2 from "../assets/MenuPlaceholder2.png"
+// import FlipBook from './FlipBook';
+// import MenuPlaceholder from "../assets/MenuPlaceholder.png"
+// import MenuPlaceholder2 from "../assets/MenuPlaceholder2.png"
 import Menu1 from "../assets/menu/Menu Page-01.jpg";
 import Menu6 from "../assets/menu/Menu Page-02.jpg";
 import Menu2 from "../assets/menu/Menu Page-03.jpg";
@@ -9,26 +9,26 @@ import Menu5 from "../assets/menu/Menu Page-04.jpg";
 import Menu3 from "../assets/menu/Menu Page-05.jpg";
 import Menu4 from "../assets/menu/Menu Page-06.jpg";
 import HTMLFlipBook from 'react-pageflip';
-import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-  } from "@/components/ui/carousel"
+// import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
+// import {
+//     Carousel,
+//     CarouselContent,
+//     CarouselItem,
+//     CarouselNext,
+//     CarouselPrevious,
+//   } from "@/components/ui/carousel"
 
 const Menu = () => {
   return (
     <div className="w-full bg-primary" id = "menu">
         <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pb-[114px]">
             <div className="flex flex-col gap-3 lg:gap-9">
-                <div className="merri-bold text-center text-sm lg:text-[22px] tracking-[4.4px]">
+                <div className="merri-bold text-center text-sm lg:text-base tracking-[10px]">
                     MENU
                 </div>
                 <div className="w-full h-[1px] bg-prim-darkGray"></div>
                 <div className="text-center iplex text-xs lg:text-base lg:tracking-[1.5px]">
-                Whether you're in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
+                    Whether you're in the mood for a hearty meal or a light, refreshing bite, our diverse menu caters to all preferences. Explore our selection of appetizers, mains, and desserts, each crafted to perfection.
                 </div>
             </div>
             <div className="">
@@ -45,7 +45,7 @@ const Menu = () => {
                         <img src={Menu6} />
                     </HTMLFlipBook>
                 </div>
-                <div className="h-auto w-full lg:flex hidden items-center justify-center ">
+                <div className="h-[800px] w-[600px] mx-auto pt-11 lg:flex hidden items-center justify-center ">
                     {/* <div className="flex flex-col gap-11 items-center"> */}
                         {/* <div className="merri-bold text-[22px]">MENU</div>
                         <img src = {MenuPlaceholder}/>
@@ -60,8 +60,8 @@ const Menu = () => {
                         </HTMLFlipBook> */}
                         {/* <FlipBook images={[Menu1, Menu2, Menu3, Menu4, Menu5, Menu6]} /> */}
                             <HTMLFlipBook
-                                height={1200}
-                                width={900}
+                                height={800}
+                                width={600}
                             >
                                 <img src={Menu1} />
                                 <img src={Menu2} />

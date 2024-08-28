@@ -4,7 +4,7 @@ const OurStory = () => {
   return (
     <div className="w-full pb-7 pt-9 lg:pt-[96px] lg:pb-[104px] bg-primary" id = "ourstory">
         <div className="lg:max-w-[1145px] max-w-[375px] lg:p-0 p-5 mx-auto">
-            <div className="h-full mb-9 merri-bold text-center pb-6 border-b border-prim-darkGray">
+            <div className="h-full tracking-[10px] mb-9 merri-bold text-center pb-6 border-b border-prim-darkGray">
                 OUR STORY
             </div>
             <div className="w-full flex flex-col lg:flex-row lg:items-center gap-9">
