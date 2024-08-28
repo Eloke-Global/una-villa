@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-primary iplex text-lg" id = "footer">
         <div className="h-2.5 border-y border-prim-darkGray"></div>
-        <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto pt-24 lg:pb-14 flex gap-7 lg:gap-10 flex-col">
+        <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto lg:pt-24 pt-16 lg:pb-14 flex gap-7 lg:gap-10 flex-col">
             {/* <div className="flex flex-col gap-10 lg:hidden">
                 <img src={KICl} alt="" />
                 <img src={Logo} alt="" />
@@ -21,7 +21,7 @@ const Footer = () => {
                         <a href="#gallery" className="cursor-pointer">Gallery</a>
                         <a href="#contact" className="cursor-pointer flex gap-[120px]">Contact </a>
                     </div>
-                    <img className="lg:h-20 h-10" src={KICl} alt="" />
+                    <img className="lg:h-10 h-6 lg:pl-20 mb-6 lg:mb-0" src={KICl} alt="" />
                 </div>
                 <div className="flex flex-col w-full lg:w-auto gap-10 lg:gap-0 lg:justify-end items-center">
                     <img className="lg:w-[371px] w-[217px] lg:self-end" src={Logo} alt="" />
@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="flex justify-between lg:p-0 pb-5">
                 <div className="lg:text-lg text-xs flex gap-6 lg:gap-[120px] italic">
                     Privacy Policy
-                    <div>
+                    <div className="lg:pl-16">
                         Terms & Conditions
                     </div>
                 </div>

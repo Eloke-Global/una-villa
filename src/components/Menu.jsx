@@ -9,7 +9,7 @@ import Menu5 from "../assets/menu/Menu Page-04.jpg";
 import Menu3 from "../assets/menu/Menu Page-05.jpg";
 import Menu4 from "../assets/menu/Menu Page-06.jpg";
 import HTMLFlipBook from 'react-pageflip';
-// import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
+import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
 // import {
 //     Carousel,
 //     CarouselContent,
@@ -70,6 +70,7 @@ const Menu = () => {
                                 <img src={Menu5} />
                                 <img src={Menu6} />
                             </HTMLFlipBook>
+                            
                         {/* <Carousel className="lg:w-[90%] w-[70%] h-full">
                             <CarouselContent>
                                 <CarouselItem>
@@ -95,6 +96,15 @@ const Menu = () => {
                             <CarouselNext />
                         </Carousel> */}
                     {/* </div> */}
+                </div>
+                <div className="w-full lg:pt-20 flex items-center justify-center">
+                    <a href={MenuPDF} download="UNA VILLA MENU.pdf">
+                        <button className="bg-[#2E6E76] px-4 py-2 merri-italic w-36 text-xs lg:w-[270px] underline lg:text-base text-primary font-thin relative">
+                            <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-prim-darkGray"></div>
+                            <div className="absolute h-[calc(100%+8px)] w-full left-0 -top-[4px] border border-prim-darkGray"></div>
+                            Download Menu!
+                        </button>
+                    </a>
                 </div>
             </div>
             {/* <div className="flex gap-9 lg:gap-24 lg:flex-row flex-col items-center justify-center">
