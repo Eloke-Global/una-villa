@@ -20,7 +20,7 @@ import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
 
 const Menu = () => {
   return (
-    <div className="w-full bg-primary pt-[25px] lg:pt-[50px] lg:pb-[120px]" id = "menu">
+    <div className="w-full bg-primary pt-[25px] lg:pt-[50px]" id = "menu">
         <div className="mx-auto max-w-[375px] px-5 lg:max-w-[1145px]">
             <div className="flex flex-col gap-[25px] lg:gap-[50px]">
                 <div className="merri-bold text-center text-xs lg:text-base tracking-[10px]">
@@ -97,7 +97,7 @@ const Menu = () => {
                         </Carousel> */}
                     {/* </div> */}
                 </div>
-                <div className="w-full lg:pt-20 flex items-center justify-center">
+                <div className="w-full pb-[40px] lg:py-[50px] flex items-center justify-center">
                     <a href={MenuPDF} download="UNA VILLA MENU.pdf">
                         <button className="bg-[#2E6E76] px-4 py-2 merri-italic w-36 text-xs lg:w-[270px] underline lg:text-base text-primary font-thin relative">
                             <div className="absolute w-[calc(100%+8px)] h-full top-0 -left-[4px] border border-prim-darkGray"></div>
