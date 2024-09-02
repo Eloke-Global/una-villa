@@ -21,7 +21,7 @@ const Contact = () => {
                         <div className="merri-italic text-[16px] lg:text-lg flex-1 text-center lg:h-[215px] border flex-col p-4 py-5 lg:py-0 border-prim-darkGray flex items-center gap-2 justify-center">
                             Contact
                             <div className="iplex text-xs lg:text-base">
-                                Contact us on +91 72006 10031
+                                Contact us on <br /> +91 72006 10031
                             </div>
                         </div>
                         <div className="merri-italic text-[16px] lg:text-lg  flex-1 text-center lg:h-[215px] border flex-col p-4 border-prim-darkGray flex items-center gap-2 justify-center">
