@@ -20,9 +20,9 @@ import MenuPDF from "../assets/menu/Una Villa Menu Card.pdf"
 
 const Menu = () => {
   return (
-    <div className="w-full bg-primary pt-7 lg:pt-[104px]" id = "menu">
-        <div className="mx-auto max-w-[375px] p-5 lg:max-w-[1145px] pt-9 pb-[52px] lg:pb-[114px]">
-            <div className="flex flex-col gap-3 lg:gap-9">
+    <div className="w-full bg-primary pt-[25px] lg:pt-[50px] lg:pb-[120px]" id = "menu">
+        <div className="mx-auto max-w-[375px] px-5 lg:max-w-[1145px]">
+            <div className="flex flex-col gap-[25px] lg:gap-[50px]">
                 <div className="merri-bold text-center text-xs lg:text-base tracking-[10px]">
                     MENU
                 </div>

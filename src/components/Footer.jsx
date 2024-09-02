@@ -1,8 +1,11 @@
 import Logo from "../assets/Logo.png"
-import Facebook from "../assets/social/Facebook.png"
-import Instagram from "../assets/social/Instagram.png"
-import Youtube from "../assets/social/YouTube.png"
 import KICl from "../assets/KICL.png"
+const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    const offset = 80; // Adjust this value based on the height of your sticky header
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top: elementPosition, behavior: 'smooth' });
+};
 const Footer = () => {
   return (
     <div className="w-full bg-primary iplex text-lg" id = "footer">
@@ -15,11 +18,11 @@ const Footer = () => {
             <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-0 pb-10">
                 <div className="flex align-bottom lg:justify-end justify-center lg:items-end lg:gap-40 ">
                     <div className="lg:flex hidden gap-10 flex-col">
-                        <a href="#top" className="cursor-pointer">Home</a>
-                        <a href="#ourstory" className="cursor-pointer">About</a>
-                        <a href="#menu" className="cursor-pointer">Menu</a>
-                        <a href="#gallery" className="cursor-pointer">Gallery</a>
-                        <a href="#contact" className="cursor-pointer flex gap-[120px]">Contact </a>
+                        <button onClick={() => scrollToSection('top')} className="cursor-pointer">Home</button>
+                        <button onClick={() => scrollToSection('ourstory')} className="cursor-pointer">About</button>
+                        <button onClick={() => scrollToSection('menu')} className="cursor-pointer">Menu</button>
+                        <button onClick={() => scrollToSection('gallery')} className="cursor-pointer">Gallery</button>
+                        <button onClick={() => scrollToSection('contact')} className="cursor-pointer flex gap-[120px]">Contact </button>
                     </div>
                     <img className="lg:h-10 h-6 lg:pl-20 mb-6 lg:mb-0" src={KICl} alt="" />
                 </div>

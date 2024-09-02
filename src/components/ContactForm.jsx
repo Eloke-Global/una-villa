@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="bg-primary pt-[43px] pb-[53px] lg:pb-52 lg:pt-24" id = "writetous">
-        <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto flex lg:flex-row flex-col-reverse gap-[43px] lg:gap-28 ">
+    <div className="bg-primary py-[25px] lg:px-[50px]" id = "writetous">
+        <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto flex lg:flex-row flex-col-reverse gap-[25px] lg:gap-28 ">
             <div className="flex-1 w-[336px]  border border-prim-darkGray p-2">
                 <div className="border border-prim-darkGray w-full h-full">
                     <iframe 
@@ -18,8 +18,8 @@ const ContactForm = () => {
                     </iframe>
                 </div>
             </div>
-            <div className="flex-1 flex gap-[20px] text-[16px] lg:gap-16 flex-col justify-center merri ">
-                <div className="merri-bold lg:text-base text-xs tracking-[10px] lg:pb-0 pb-8">
+            <div className="flex-1 flex gap-[25px] text-[16px] lg:gap-16 flex-col justify-center merri ">
+                <div className="merri-bold lg:text-base text-xs tracking-[10px] ">
                     WRITE TO US
                 </div>
                 <div className="flex flex-col ">
