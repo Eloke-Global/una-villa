@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-primary iplex text-lg" id = "footer">
         <div className="h-2.5 border-y border-prim-darkGray"></div>
-        <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto lg:pt-24 pt-16 lg:pb-14 flex gap-7 lg:gap-10 flex-col">
+        <div className="lg:max-w-[1145px] max-w-[375px] p-5 mx-auto lg:py-[50px] py-[25px]  flex gap-[25px] lg:gap-[50px] flex-col">
             {/* <div className="flex flex-col gap-10 lg:hidden">
                 <img src={KICl} alt="" />
                 <img src={Logo} alt="" />
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="h-[1px] w-full bg-prim-darkGray"></div>
-            <div className="flex justify-between lg:p-0 pb-5">
+            <div className="flex justify-between lg:p-0 pb-5 items-center">
                 <div className="lg:text-lg text-xs flex gap-6 lg:gap-[120px] italic">
                     Privacy Policy
                     <div className="lg:pl-16">
