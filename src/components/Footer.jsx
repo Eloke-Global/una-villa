@@ -37,12 +37,12 @@ const Footer = () => {
             </div>
             <div className="h-[1px] w-full bg-prim-darkGray"></div>
             <div className="flex justify-between lg:p-0 pb-5 items-center">
-                {/* <div className="lg:text-lg text-xs flex gap-6 lg:gap-[120px] italic">
-                    Privacy Policy
-                    <div className="lg:pl-16">
+                <div className="lg:text-lg text-xs italic">
+                    Copyright 2024 Ekka Mumbai. All rights reserved. | <a href="https://www.ekkamumbai.com/privacy-policy">Privacy Policy</a>
+                    {/* <div className="lg:pl-16">
                         Terms & Conditions
-                    </div>
-                </div> */}
+                    </div> */}
+                </div>
                 <div className="flex gap-2 lg:gap-6">
                     <a target="_blank" href="https://m.facebook.com/profile.php?id=61564092323239&wtsid=rdr_09XVu4ziSB82FYl4v">
                         <svg className="cursor-pointer" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
